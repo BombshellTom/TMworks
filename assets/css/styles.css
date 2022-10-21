@@ -5,22 +5,29 @@ body {
     color: #7D9D9C;
 }
 
-#topbox h1 {
-    font-size: 200%;
-}
-
-#topbox p {
-    font-size: 200%;
+header {
+    margin-top: 40px;
 }
 
 #logo {
     float: left;
-    margin: 15px 10px 5px 2.5%;
+    margin: 0 10px 5px 2.5%;
 }
 
-#toptext {
-    width: 100%;
+.first-text{
     text-align: center;
+    margin: 0 auto;
+}
+.first-text h1 {
+    font-size: 300%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.first-text p {
+    font-size: 150%;
+    margin: 0 auto;
+    
 }
 
 #menu {
@@ -41,7 +48,7 @@ body {
 }
 
 #menu a {
-    text-decoration: ;
+    text-decoration: none;
     color: inherit;
 }
 
