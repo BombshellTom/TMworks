@@ -65,6 +65,7 @@ header {
 
 #top-box {
     margin-bottom: 20px;
+    color: #576F72;
 }
 
 #kitchen-outer {
@@ -156,4 +157,51 @@ header {
     text-align: center;
     max-width: auto;
     max-height: 100%;
+}
+
+#details {
+    width: 33%;
+    margin: 0 auto:
+}
+
+#details {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#contact-times {
+    width: 50%;
+}
+
+#the-map {
+    width: 50%;
+}
+
+/*footer*/
+
+footer {
+    height: 100px;
+    clear: both;
+    padding-bottom: 20px;
+    background-color: #E4DCCF;
+}
+
+.the-footer {
+    text-align: center;
+    width: 100%;
+}
+
+.the-footer>li {
+    display: inline;
+}
+
+.the-footer i {
+    font-size: 200%;
+    color: #7D9D9C;
+    padding: 45px 25px;
+    margin: 0 auto;
+}
+
+.the-footer i:hover {
+    columns: #576F72;
 }
