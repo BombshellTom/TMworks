@@ -132,3 +132,28 @@ header {
 #left-desc p, #right-desc p {
     padding: 0 15px;
 }
+
+#furniture-outer {
+    width: 33%;
+    float: left;
+    height: 420px;
+    text-align: center;
+}
+
+#garage-outer {
+    width: 33%;
+    float: right;
+    height: 420px;
+    text-align: center;
+}
+
+#garage-outer, #furniture-outer {
+    position: relative;
+    top: -140px;
+}
+
+.other-pic {
+    text-align: center;
+    max-width: auto;
+    max-height: 100%;
+}
