@@ -165,3 +165,58 @@ footer {
     padding: 30px 25px 0 25px;
     margin: 0 auto;
 }
+
+/* form page */
+
+.form-box {
+    clear: left;
+    background: url(../pictures/gallery-pics/wooden-bed.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-box {
+    margin: 150px 10% 0 0;
+    color: #F0EBE3;
+    background-color: rgba(60, 60, 60, 0.7);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 40px;
+}
+
+.signup-box > h2 {
+    color: #F0EBE3;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #F0EBE3;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #F0EBE3;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #576F72;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #F0EBE3;
+    color: #576F72;
+    display: block;
+}
+
+.send-button:hover {
+    background-color: #576F72;
+    color: #F0EBE3;
+}

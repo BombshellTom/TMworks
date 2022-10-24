@@ -35,7 +35,28 @@
             <p>Kitchen, Garage Door & Furniture Painting</p>
         </div>
     </header>
+    <section class="form-box">
+        <form class="signup-box" method="POST">
+            <h2>Send us a message! <i class="fa-sharp fa-solid fa-brush"></i></h2>
+            <label for="fname">Full Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required/>
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <label for="message">Your message</label>
+            <textarea id="message" class="text-input" name="message" required></textarea>
+            
+            <label for="road">Kitchen</label>
+            <input id="road" type="radio" name ="job_required" value="Kitchen" required/>
+            <label for="trail">Funriture</label>
+            <input id="trail" type="radio" name="job_required" value="Furniture"/>
+            <label for="both">Garage Doors</label>
+            <input id="both" type="radio" name="job_required" value="Garage Doors"/>
+            <input class="send-button" type="submit" value="Send"/>
 
+        </form>
+ </section>
+
+    
 
     <footer>
         <ul class="the-footer">
