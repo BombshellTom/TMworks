@@ -4,7 +4,7 @@ body {
     font-weight: 300;
     color: #7D9D9C;
 }
-
+/* header */ 
 header {
     margin-top: 20px;
     padding-bottom: 20px;
@@ -38,7 +38,6 @@ header {
     letter-spacing: 2px;
 }
 
-
 #menu,
 #logo {
     line-height: 75px;
@@ -68,96 +67,40 @@ header {
     color: #576F72;
 }
 
-#kitchen-outer {
-    width: 33%;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: 0;
-}
+/* middle box */
 
-#kitchen-pic {
-    text-align: center;
-    max-width: 100%;
-    max-height: auto;
-}
-
-#info-blurb {
+.middle-box {
     width: 100%;
 }
 
-#info-blurb h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 0 5px;
-}
-
-#info-blurb p {
-    margin-top: 8px;
-}
-
-#central-desc {
+.left-box {
     width: 33%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.central-box {
+    width: 33%;
+    height: auto;
     margin: 0 auto;
-    display: inline-block;
 }
 
-#central-desc h2 {
-    text-align: center;
-}
-
-#left-desc {
+.right-box {
     width: 33%;
-    display: inline-block;
-    position: relative;
-    bottom: 155px;
+    height: auto;
+    padding-top: 50px;
 }
 
-#right-desc {
-    width: 33%;
-    display: inline-block;
-    position: relative;
-    bottom: 155px;
+.index-pic {
+    max-width: 100%;
+    height: auto;
 }
 
-#right-desc h2 {
-    text-align: right;
-    padding-right: 25px;
-}
 
-#left-desc h2 {
-    padding-left: 15px;
-}
 
-#left-desc p, #right-desc p {
-    padding: 0 15px;
-}
 
-#furniture-outer {
-    width: 33%;
-    float: left;
-    height: 420px;
-    text-align: center;
-}
 
-#garage-outer {
-    width: 33%;
-    float: right;
-    height: 420px;
-    text-align: center;
-}
-
-#garage-outer, #furniture-outer {
-    position: relative;
-    top: -140px;
-}
-
-.other-pic {
-    text-align: center;
-    max-width: auto;
-    max-height: 100%;
-}
+/* other details*/ 
 
 #details {
     width: 33%;
