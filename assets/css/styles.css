@@ -122,16 +122,25 @@ header {
 
 /*gallery page*/
 
+
+#gallery-words h2 {
+    font-family: 'Osawald', sans-serif;
+    letter-spacing: 2px;
+}
+
 #photos {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 2px;
+    column-gap: 8px;
+    margin-top: 40px;
 }
 
-#photos > img {
-    width: 100%;
-}
+.g-photo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+} 
 
 /*footer*/
 
