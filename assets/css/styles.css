@@ -122,12 +122,6 @@ header {
 
 /*gallery page*/
 
-
-#gallery-words h2 {
-    font-family: 'Osawald', sans-serif;
-    letter-spacing: 2px;
-}
-
 #photos {
     clear: both;
     line-height: 0;
@@ -174,16 +168,17 @@ footer {
     background-size: cover;
     background-position: center;
     height: 900px;
+    margin-top: 30px;
 }
 
 .signup-box {
     margin: 150px 10% 0 0;
     color: #F0EBE3;
-    background-color: rgba(60, 60, 60, 0.7);
+    background-color: rgba(87,111, 114, 0.8);
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 40px;
+    padding: 20px 40px 40px 40px;
 }
 
 .signup-box > h2 {
