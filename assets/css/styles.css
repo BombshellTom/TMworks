@@ -3,6 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #7D9D9C;
+    width: auto;
 }
 /* header */ 
 header {
@@ -17,7 +18,7 @@ header {
 
 .first-text {
     text-align: center;
-    width: 50%;
+    width: 100%;
     height: 100px;
     margin: 0 auto;
 }
@@ -71,29 +72,32 @@ header {
 
 .middle-box {
     width: 100%;
+    display: flex;
 }
 
 .left-box {
     width: 33%;
     height: auto;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 .central-box {
     width: 33%;
     height: auto;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 .right-box {
     width: 33%;
     height: auto;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 .index-pic {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
+    margin: 0 auto;
 }
 
 
@@ -140,24 +144,38 @@ header {
 
 footer {
     height: 120px;
-    clear: both;
-    background-color: #E4DCCF;
-}
-
-.the-footer {
     text-align: center;
     width: 100%;
+    background-color: #E4DCCF;
+    display: flex;
 }
 
-.the-footer>li {
-    display: inline;
+.fb-footer {
+    width: 33%;
+    position: relative;
+    top: 20%;
 }
 
-.the-footer i {
+.mid-footer {
+    color: #7D9D9C;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.insta-footer{
+    width: 33%;
+    position: relative;
+    top: 20%;
+}
+
+footer i {
     font-size: 300%;
     color: #7D9D9C;
-    padding: 30px 25px 0 25px;
-    margin: 0 auto;
+    
 }
 
 /* form page */
