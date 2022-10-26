@@ -66,6 +66,7 @@ header {
 #top-box {
     padding-bottom: 40px;
     color: #576F72;
+    width: 100%;
 }
 
 /* middle box */
@@ -94,8 +95,12 @@ header {
     padding-top: 150px;
 }
 
+.photo-box {
+    width: 100%;
+    text-align: center;
+}
 .index-pic {
-    max-width: 90%;
+    max-width: 95%;
     height: auto;
     margin: 0 auto;
 }
@@ -109,6 +114,14 @@ header {
 #left-words, #middle-words, #right-words {
     max-width: 85%;
     padding-left: 10px;
+}
+
+.contact-box {
+    margin-top: 30px;
+    color: #F0EBE3;
+    background-color: rgba(87,111, 114, 0.8);
+    max-width: 90%;
+    padding: 20px 40px 40px 40px;
 }
 
 
