@@ -5,7 +5,8 @@ body {
     color: #7D9D9C;
     width: auto;
 }
-/* header */ 
+
+/* header */
 header {
 
     padding-bottom: 20px;
@@ -99,6 +100,7 @@ header {
     width: 100%;
     text-align: center;
 }
+
 .index-pic {
     max-width: 95%;
     height: auto;
@@ -112,7 +114,9 @@ header {
 
 }
 
-#left-words, #middle-words, #right-words {
+#left-words,
+#middle-words,
+#right-words {
     max-width: 85%;
     padding-left: 10px;
 }
@@ -120,7 +124,7 @@ header {
 .contact-box {
     margin-top: 30px;
     color: #F0EBE3;
-    background-color: rgba(87,111, 114, 0.8);
+    background-color: rgba(87, 111, 114, 0.8);
     max-width: 90%;
     padding: 20px 40px 40px 40px;
 }
@@ -132,19 +136,31 @@ header {
 
 
 
-/* other details*/ 
+/* other details*/
 
 #details {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-#details {
+    text-align: center;
+    margin: 25px;
 }
 
 #contact-times {
-    text-align: center;
+    text-align: right;
+    margin: 0 auto;
+}
+
+#contact-times th {
+    color: #576F72;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    padding: 5px 10px;
+}
+
+#contact-times td {
+    font-size: xx-large;
+    padding: 2.5px 10px;
 }
 
 #the-map {
@@ -165,7 +181,7 @@ header {
     max-width: 100%;
     height: auto;
     margin-bottom: 8px;
-} 
+}
 
 /*footer*/
 
@@ -193,7 +209,7 @@ footer {
     letter-spacing: 1px;
 }
 
-.insta-footer{
+.insta-footer {
     width: 33%;
     position: relative;
     top: 20%;
@@ -202,7 +218,7 @@ footer {
 footer i {
     font-size: 300%;
     color: #7D9D9C;
-    
+
 }
 
 /* form page */
@@ -219,14 +235,14 @@ footer i {
 .signup-box {
     margin: 150px 10% 0 0;
     color: #F0EBE3;
-    background-color: rgba(87,111, 114, 0.8);
+    background-color: rgba(87, 111, 114, 0.8);
     max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 20px 40px 40px 40px;
 }
 
-.signup-box > h2 {
+.signup-box>h2 {
     color: #F0EBE3;
     margin-bottom: 20px;
 }
