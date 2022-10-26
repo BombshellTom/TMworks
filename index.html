@@ -57,6 +57,23 @@
                 <p>We specialise in refinishing kitchen cabinets. Using top quality materials and expert craftmanship
                     resulting in top quality renovations at a fraction of the cost of remodelling.</p>
             </div>
+            <form class="contact-box" method="POST">
+                <h2>Send us a message! <i class="fa-sharp fa-solid fa-brush"></i></h2>
+                <label for="fname">Full Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required />
+                <label for="message">Your message</label>
+                <textarea id="message" class="text-input" name="message" required></textarea>
+
+                <label for="kitch">Kitchen</label>
+                <input id="kitch" type="radio" name="job_required" value="Kitchen" required /> <br>
+                <label for="furn">Funriture</label>
+                <input id="furn" type="radio" name="job_required" value="Furniture" /> <br>
+                <label for="doors">Garage Doors</label>
+                <input id="doors" type="radio" name="job_required" value="Garage Doors" />
+                <input class="send-button" type="submit" value="Send" />
+            </form>
         </div>
         <div class="right-box">
             <div id="right-words">
