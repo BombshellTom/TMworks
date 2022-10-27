@@ -4,12 +4,13 @@ body {
     font-weight: 300;
     color: #7D9D9C;
     width: auto;
+    margin: 0;
 }
 
 /* header */
 header {
     height: 100px;
-    padding-bottom: 20px;
+    padding: 10px 0 0 0;
 }
 
 #logo {
@@ -251,7 +252,7 @@ footer i {
     clear: left;
     background: url(../pictures/gallery-pics/wooden-bed.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 900px;
     margin-top: 30px;
 }
@@ -299,4 +300,42 @@ footer i {
 .send-button:hover {
     background-color: #576F72;
     color: #F0EBE3;
+}
+
+/* for screens below 1200*/
+
+.first-text p {
+    font-size: 100%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.first-text h1 {
+   text-align: center;
+   font-size: 250%; 
+}
+
+.central-box {
+    padding-top: 10px
+}
+
+.left-box, .right-box {
+    padding-top: 30px;
+}
+
+.contact-box {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+#details {
+    grid-template-columns: 1fr;
+}
+
+#opening-times {
+    margin-bottom: 10px;
+}
+
+#contact-box {
+    margin-bottom: 20px;
 }
