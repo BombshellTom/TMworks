@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+
 /* header */
 header {
     height: 100px;
@@ -73,6 +74,7 @@ header {
     width: 100%;
 }
 
+
 /* middle box */
 
 .middle-box {
@@ -137,8 +139,6 @@ header {
 }
 
 
-
-
 /* other details*/
 
 #details {
@@ -193,7 +193,6 @@ header {
 }
 
 
-
 /*gallery page*/
 
 #photos {
@@ -209,6 +208,7 @@ header {
     height: auto;
     margin-bottom: 8px;
 }
+
 
 /*footer*/
 
@@ -247,6 +247,7 @@ footer i {
     color: #7D9D9C;
 
 }
+
 
 /* form page */
 
@@ -304,6 +305,7 @@ footer i {
     background-color: #576F72;
     color: #F0EBE3;
 }
+
 
 /* for screens below 1200*/
 
@@ -371,5 +373,60 @@ footer i {
     #photos {
         margin-top: 20px;
         column-count: 3;
+    }
+}
+
+
+/*for iphone 12 and/or Pixel 5 dimensions*/
+
+@media screen and (max-width: 500px) {
+    #logo {
+        line-height: 15px
+    }
+
+    #top-box {
+        height: 120px;
+    }
+
+    #menu {
+        font-size: 65%;
+    }
+
+    .first-text h1 {
+        font-size: 150%;
+        padding-top: 30px;
+    }
+
+    .first-text p {
+        font-size: 80%;
+        padding-top: 0;
+    }
+
+    .middle-box {
+        margin-top: 5px;
+    }
+
+    .middle-box h2 {
+        font-size: 100%;
+    }
+
+    .middle-box p {
+        font-size: 80%;
+    }
+
+    .central-box label {
+        font-size: 75%;
+    }
+
+    #opening-times {
+        margin: 0;
+    }
+
+    .em-ph-ad {
+        font-size: 100%;
+    }
+
+    #photos {
+        column-count: 2;
     }
 }
