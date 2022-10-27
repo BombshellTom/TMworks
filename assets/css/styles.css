@@ -20,20 +20,22 @@ header {
 
 .first-text {
     text-align: center;
-    width: 100%;
+    width: 50%;
     height: 100px;
     margin: 0 auto;
 }
 
 .first-text h1 {
-    font-size: 300%;
+    font-size: 400%;
     margin: 0 auto;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .first-text p {
     font-size: 150%;
     margin: 0 auto;
+    text-align: center;
 }
 
 #menu {
@@ -306,6 +308,9 @@ footer i {
 
 @media screen and (max-width: 1200px) {
 
+.first-text {
+        width: 100%
+    }
 .first-text p {
     font-size: 100%;
     text-align: center;
