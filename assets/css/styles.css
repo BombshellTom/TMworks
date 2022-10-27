@@ -149,18 +149,30 @@ header {
 #contact-times {
     text-align: right;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
-#contact-times th {
+#contact-times th, .contact-title {
     color: #576F72;
     font-family: 'Oswald', sans-serif;
     font-size: xx-large;
     padding: 5px 10px;
 }
 
-#contact-times td {
+.em-ph-ad {
+    font-size: x-large;
+    text-align: left;
+    padding: 2.5px 15px;
+}
+
+#opening-times td {
     font-size: xx-large;
     padding: 2.5px 10px;
+}
+
+#opening-times {
+    margin-bottom: 20px;
+    margin: 0 auto 50px auto;
 }
 
 #the-map {
@@ -168,6 +180,8 @@ header {
     height: 100%;
     border:rgba(87, 111, 114, 1)
 }
+
+
 
 /*gallery page*/
 
