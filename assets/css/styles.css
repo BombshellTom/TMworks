@@ -8,7 +8,7 @@ body {
 
 /* header */
 header {
-
+    height: 100px;
     padding-bottom: 20px;
 }
 
@@ -118,7 +118,7 @@ header {
 #middle-words,
 #right-words {
     max-width: 85%;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .contact-box {
@@ -139,7 +139,7 @@ header {
 /* other details*/
 
 #details {
-    width: 100%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -152,11 +152,19 @@ header {
     margin-top: 30px;
 }
 
-#contact-times th, .contact-title {
+#contact-times th {
     color: #576F72;
     font-family: 'Oswald', sans-serif;
     font-size: xx-large;
     padding: 5px 10px;
+}
+
+.contact-title {
+    color: #576F72;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    padding: 5px 10px;
+    font-weight: bold;
 }
 
 .em-ph-ad {
@@ -204,7 +212,7 @@ header {
 footer {
     height: 120px;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     background-color: #E4DCCF;
     display: flex;
 }
