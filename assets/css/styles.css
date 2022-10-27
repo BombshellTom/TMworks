@@ -189,7 +189,7 @@ header {
 #the-map {
     width: 100%;
     height: 100%;
-    border:rgba(87, 111, 114, 1)
+    border: rgba(87, 111, 114, 1)
 }
 
 
@@ -308,66 +308,67 @@ footer i {
 
 @media screen and (max-width: 1200px) {
 
-.first-text {
+    .first-text {
         width: 100%
     }
-.first-text p {
-    font-size: 100%;
-    text-align: center;
-    padding-top: 10px;
-}
 
-.first-text h1 {
-   text-align: center;
-   font-size: 250%; 
-}
+    .first-text p {
+        font-size: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
 
-.central-box {
-    padding-top: 10px
-}
+    .first-text h1 {
+        text-align: center;
+        font-size: 250%;
+    }
 
-.left-box, .right-box {
-    padding-top: 30px;
-}
+    .central-box {
+        padding-top: 10px
+    }
 
-.contact-box {
-    margin-top: 10px;
-    padding: 5px 10px;
-}
+    .left-box,
+    .right-box {
+        padding-top: 30px;
+    }
 
-#contact-times {
-    margin-top: 10px;
-}
+    .contact-box {
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
 
-#details {
-    grid-template-columns: 1fr;
-    margin-top: 0;
-}
+    #contact-times {
+        margin-top: 10px;
+    }
 
-#opening-times {
-    margin-bottom: 10px;
-}
+    #details {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
 
-#opening-times td, #contact-times th {
-    font-size: x-large;
-}
+    #opening-times {
+        margin-bottom: 10px;
+    }
 
-#contact-box {
-    margin-bottom: 20px;
-}
+    #opening-times td,
+    #contact-times th {
+        font-size: x-large;
+    }
 
-.contact-title {
-    font-size: x-large;
-}
+    #contact-box {
+        margin-bottom: 20px;
+    }
 
-.em-ph-ad {
-    font-size: large;
-}
+    .contact-title {
+        font-size: x-large;
+    }
 
+    .em-ph-ad {
+        font-size: large;
+    }
 
-
-#photos {
-    margin-top: 20px;
-    column-count: 3;
-}
+    #photos {
+        margin-top: 20px;
+        column-count: 3;
+    }
 }
