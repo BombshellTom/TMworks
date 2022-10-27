@@ -304,9 +304,11 @@ footer i {
 
 /* for screens below 1200*/
 
+@media screen and (max-width: 1200px) {
+
 .first-text p {
     font-size: 100%;
-    text-align: left;
+    text-align: center;
     padding-top: 10px;
 }
 
@@ -328,14 +330,39 @@ footer i {
     padding: 5px 10px;
 }
 
+#contact-times {
+    margin-top: 10px;
+}
+
 #details {
     grid-template-columns: 1fr;
+    margin-top: 0;
 }
 
 #opening-times {
     margin-bottom: 10px;
 }
 
+#opening-times td, #contact-times th {
+    font-size: x-large;
+}
+
 #contact-box {
     margin-bottom: 20px;
+}
+
+.contact-title {
+    font-size: x-large;
+}
+
+.em-ph-ad {
+    font-size: large;
+}
+
+
+
+#photos {
+    margin-top: 20px;
+    column-count: 3;
+}
 }
