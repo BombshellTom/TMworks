@@ -456,20 +456,25 @@ footer i {
         padding-top: 0;
     }
 
-    .middle-box {
-        margin-top: 5px;
+    #services-heading {
+        width: 100%;
+        margin: 20px auto 0;
     }
 
-    .middle-box h2 {
-        font-size: 100%;
+    .middle-box-upper {
+        flex-direction: column-reverse;
     }
 
-    .middle-box p {
-        font-size: 80%;
+    .top-right {
+        max-width: 100%
     }
 
-    .central-box label {
-        font-size: 75%;
+    .kandg-box {
+        max-width: 100%;
+    }
+
+    .furniture-box {
+        max-width: 100%;
     }
 
     #opening-times {
