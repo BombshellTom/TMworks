@@ -32,6 +32,7 @@ header {
     margin: 0 auto;
     padding-bottom: 10px;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .first-text p {
@@ -78,25 +79,44 @@ header {
 
 /* middle box */
 
+#services-heading {
+    width: 50%;
+    text-align: center;
+    float: right;
+    clear: left;
+    margin: 40px 10% 0 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 180%;
+    letter-spacing: 1px;
+    color: #576F72;
+    text-decoration: underline;
+}
+
 .middle-box-upper {
     width: 90%;
     text-align: center;
     display: flex;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .form-index-box {
     max-width: 50%;
 }
-    
+
 .contact-box {
-    margin-top: 30px;
+    margin-top: 15px;
     color: #F0EBE3;
     background-color: rgba(87, 111, 114, 0.8);
-    max-width: 50%;
+    max-width: 60%;
     padding: 20px 40px 40px 40px;
     text-align: left;
+}
+
+#contact-box a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .contact-box h2 {
@@ -106,10 +126,41 @@ header {
 .top-right {
     max-width: 60%;
     display: flex;
-    margin-top: 30px;
+    margin-top: 15px;
 }
-.kitchen-box {
+
+.top-right h2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #576F72;
+}
+
+.kitchen-words,
+.furniture-words {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 7.5%;
+}
+
+.kandg-box {
     max-width: 50%;
+}
+
+.kitchen-box,
+#furniture-border-box,
+.garage-box {
+    border: 3px ridge #7D9D9C;
+    margin: 5px;
+}
+
+.kitchen-box,
+.garage-box {
+    padding-top: 10px;
+
+}
+
+#furniture-border-box {
+    padding-bottom: 10px;
 }
 
 .kitchen-photo {
@@ -125,6 +176,29 @@ header {
     margin: 0 auto;
 }
 
+.furniture-box {
+    max-width: 50%;
+}
+
+.furniture-photo {
+    max-width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.garage-box {
+    margin-top: 10px;
+}
+
+#the-map-box {
+    padding: 10px;
+}
+
+.g-map {
+    width: 90%;
+    height: 400px;
+}
 
 
 /* other details*/
@@ -139,8 +213,7 @@ header {
 
 #contact-times {
     text-align: right;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #contact-times th {
@@ -162,6 +235,7 @@ header {
     font-size: x-large;
     text-align: left;
     padding: 2.5px 15px;
+    text-decoration: none;
 }
 
 #opening-times td {
@@ -170,16 +244,8 @@ header {
 }
 
 #opening-times {
-    margin-bottom: 20px;
-    margin: 0 auto 50px auto;
+    margin: 40px 0;
 }
-
-#the-map {
-    width: 100%;
-    height: 100%;
-    border: rgba(87, 111, 114, 1)
-}
-
 
 /*gallery page*/
 
@@ -420,8 +486,4 @@ footer i {
 }
 
 
-@media screen and (max-width: 600px){
-    
-}
-
-
+@media screen and (max-width: 600px) {}
