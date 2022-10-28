@@ -136,7 +136,8 @@ header {
 }
 
 .kitchen-words,
-.furniture-words {
+.furniture-words,
+.garage-words {
     margin: 0 auto;
     text-align: center;
     padding: 0 7.5%;
@@ -163,7 +164,7 @@ header {
     padding-bottom: 10px;
 }
 
-.kitchen-photo {
+.kitchen-photo, .furniture-photo, .garage-photo {
     max-width: 90%;
     height: auto;
     text-align: center;
@@ -178,13 +179,6 @@ header {
 
 .furniture-box {
     max-width: 50%;
-}
-
-.furniture-photo {
-    max-width: 90%;
-    height: auto;
-    text-align: center;
-    margin: 0 auto;
 }
 
 .garage-box {
@@ -316,7 +310,7 @@ footer i {
 }
 
 .signup-box {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: #F0EBE3;
     background-color: rgba(87, 111, 114, 0.8);
     max-width: 400px;
