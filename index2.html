@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles2.css">
+    <link rel="icon" href="assets/pictures/favicon_io/favicon.ico">
+    <title>TM Works</title>
+</head>
+<body>
+    <header id="top-box">
+        <a href="index.html">
+            <img src="assets/pictures/logo/TM-Works-Logo-DARK-jpeg.webp" id="logo" alt="company logo">
+        </a>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="first-text">
+            <h1>TM Works</h1>
+            <p>Bespoke painting specialist</p>
+        </div>
+    </header>
+
+    <section class="middle-box-upper">
+        <div id="form-index-box">
+            <form class="contact-box" method="POST">
+                <h2>Send us a message! <i class="fa-sharp fa-solid fa-brush"></i></h2>
+                <label for="fname">Full Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" required>
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required>
+                <label for="message">Your message</label>
+                <textarea id="message" class="text-input" name="message" required></textarea>
+
+                <label for="kitch">Kitchen</label>
+                <input id="kitch" type="radio" name="job_required" value="Kitchen" required> <br>
+                <label for="furn">Furniture</label>
+                <input id="furn" type="radio" name="job_required" value="Furniture"> <br>
+                <label for="doors">Garage Doors</label>
+                <input id="doors" type="radio" name="job_required" value="Garage Doors">
+                <input class="send-button" type="submit" value="Send">
+            </form>
+        </div>
+        <div class="top-right">
+        <div class="kitchen-box">
+            <div class="kitchen-photo">
+                <img src="assets/pictures/index-pics/sample-kitchen.png" alt="a nice kitchen" class="index-pic">
+            </div>
+            <div id="middle-words">
+                <h2>Kitchen Unit Painting <i class="fa-solid fa-paintbrush"></i></h2>
+                <p>We specialise in refinishing kitchen cabinets, to make a kitchen look new, at a fractionof the cost
+                    of remodelling, simply with our top quality materials and expert craftmanship</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <div class="fb-footer">
+            <a href="https://www.facebook.com/TMWORKSPAINTING" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="mid-footer">
+            <p>Areas we cover: Wiltshire, Somerset, Bath & Bristol</p>
+        </div>
+        <div class="insta-footer">
+            <a href="https://www.instagram.com/tm._works/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page "><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/10003909c7.js" crossorigin="anonymous"></script>
+</body>
+</html>
