@@ -268,26 +268,18 @@ footer {
     display: flex;
 }
 
-.fb-footer {
+.fb-footer, .insta-footer {
     width: 33%;
-    position: relative;
-    top: 20%;
+    margin-top: 32px;
 }
 
 .mid-footer {
     color: #7D9D9C;
     text-align: center;
-    position: relative;
-    top: 20%;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
-}
-
-.insta-footer {
-    width: 33%;
-    position: relative;
-    top: 20%;
+    margin-top: 32px;
 }
 
 footer i {
