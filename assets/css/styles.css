@@ -414,10 +414,14 @@ footer i {
         margin-top: 20px;
         column-count: 3;
     }
+
+    .contact-box {
+        max-width: 85%;
+    }
 }
 
 
-/*for iphone 12 and/or Pixel 5 dimensions*/
+/*for smaller screens*/
 
 @media screen and (max-width: 768px) {
     #logo {
@@ -429,7 +433,14 @@ footer i {
     }
 
     #menu {
-        font-size: 65%;
+        font-size: 80%;
+    }
+
+    .first-text {
+        width: 60%;
+        position: relative;
+        right: 150px;
+        bottom: 30px;
     }
 
     .first-text h1 {
@@ -474,7 +485,14 @@ footer i {
     #photos {
         column-count: 2;
     }
+
+    .contact-box {
+        max-width: 60%;
+    }
+
+    #menu ul {
+        float: left;
+        margin-top: 80px;
+    }
 }
 
-
-@media screen and (max-width: 600px) {}
