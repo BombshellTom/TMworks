@@ -351,12 +351,17 @@ footer i {
 
 @media screen and (max-width: 992px) {
 
+    #top-box li {
+      font-size: small;
+      height: auto;
+    }
+
     .first-text {
         width: 100%
     }
 
     .first-text p {
-        font-size: 100%;
+        font-size: 1.2rem;
         text-align: center;
         padding-top: 10px;
     }
@@ -367,7 +372,7 @@ footer i {
     }
 
     .central-box {
-        padding-top: 10px
+        padding-top: 20px
     }
 
     .left-box,
@@ -377,7 +382,12 @@ footer i {
 
     .contact-box {
         margin-top: 10px;
+        margin: auto;
         padding: 5px 10px;
+    }
+
+    .top-right {
+      max-width: 100%;
     }
 
     #contact-times {
@@ -401,6 +411,10 @@ footer i {
     #contact-box {
         margin-bottom: 20px;
     }
+    #menu {
+      line-height: 1;
+      display: block;
+    }
 
     .contact-title {
         font-size: x-large;
@@ -421,78 +435,91 @@ footer i {
 }
 
 
-/*for smaller screens*/
+/* for smaller screens and mobiles */
 
-@media screen and (max-width: 768px) {
-    #logo {
-        line-height: 15px
-    }
-
-    #top-box {
-        height: 120px;
-    }
-
-    #menu {
-        font-size: 80%;
-    }
-
-    .first-text {
-        width: 60%;
-        position: relative;
-        right: 150px;
-        bottom: 30px;
-    }
-
-    .first-text h1 {
-        font-size: 150%;
-        padding-top: 30px;
-    }
-
-    .first-text p {
-        font-size: 80%;
-        padding-top: 0;
-    }
-
-    #services-heading {
-        width: 100%;
-        margin: 20px auto 0;
-    }
-
-    .middle-box-upper {
-        flex-direction: column-reverse;
-    }
-
-    .top-right {
-        max-width: 100%
-    }
-
-    .kandg-box {
-        max-width: 100%;
-    }
-
-    .furniture-box {
-        max-width: 100%;
-    }
-
-    #opening-times {
-        margin: 0;
-    }
-
-    .em-ph-ad {
-        font-size: 100%;
-    }
-
-    #photos {
-        column-count: 2;
-    }
-
-    .contact-box {
-        max-width: 60%;
-    }
-
-    #menu ul {
-        float: left;
-        margin-top: 80px;
-    }
+@media only screen and (max-width: 850px) {
+  .middle-box-upper {
+    width: 100%;
+    flex-direction: column;
+}
+  #form-index-box {
+    max-width: 50%;
+  }
+  #photos {
+      column-count: 2;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
+    /* make the logo and navigation menu display as a column on mobile devices */
+    #logo,
+    #menu {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    /* make the logo smaller and center it */
+    #logo {
+      width: 25%;
+      margin: 0 auto;
+    }
+
+    /* make the navigation menu items display as a row */
+    #menu ul {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    #menu li {
+      margin-right: 10px;
+    }
+
+    /* make the text in the header larger */
+    .first-text h1,
+    .first-text p {
+      font-size: 1.2rem;
+    }
+  }
+
+  #form-index-box {
+    max-width: 90%;
+  }
+
+  /* make the form and contact information take up the full width of the screen */
+  .middle-box-upper {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .top-right {
+    flex-direction: column;
+  }
+
+  .kandg-box, .furniture-box {
+    max-width: 99%
+  }
+
+  /* make the text in the form and contact information larger */
+  .middle-box-upper h2,
+  .middle-box-upper p,
+  .middle-box-upper td {
+    font-size: 1.2rem;
+  }
+
+  /* hide the "Services" heading on mobile devices */
+  #services-heading {
+    display: none;
+  }
+
+  /* make the images in the "Our Work" section smaller on mobile devices */
+  .our-work img {
+    width: 50%;
+  }
+
+  #photos {
+      margin: 0 5px;
+      column-count: 1;
+  }
+}
